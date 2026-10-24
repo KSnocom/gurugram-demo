@@ -1,0 +1,340 @@
+{
+  "clouds": [
+    {
+      "name": "DENSE_CLOUD_GGM_FLHH197 TO 198 & FLHI197 TO 198_classified",
+      "directory": "v25m/tile_13",
+      "points": 2010539,
+      "mins": [
+        699489.72,
+        3145555.02,
+        -224.5
+      ],
+      "maxs": [
+        702245.59,
+        3148652.16,
+        315.1300000000001
+      ],
+      "original_points": 403023336
+    },
+    {
+      "name": "FLHC_D_E_199_200_FLHD_201_202_classified",
+      "directory": "v25m/tile_07",
+      "points": 1823103,
+      "mins": [
+        702005.71,
+        3151584.39,
+        131.3
+      ],
+      "maxs": [
+        707404.3,
+        3156178.4,
+        340.34000000000003
+      ],
+      "original_points": 365450799
+    },
+    {
+      "name": "FLHE194,FLHE195,FLHF194,FLHF195,_classified",
+      "directory": "v25m/tile_10",
+      "points": 1833687,
+      "mins": [
+        695448.31,
+        3149976.61,
+        160.63
+      ],
+      "maxs": [
+        698202.21,
+        3153072.9,
+        288.89
+      ],
+      "original_points": 367572367
+    },
+    {
+      "name": "FLHE_F_G_201_classified",
+      "directory": "v25m/tile_01",
+      "points": 797772,
+      "mins": [
+        704700.74,
+        3148637.89,
+        60.85
+      ],
+      "maxs": [
+        706161.14,
+        3153209.27,
+        406.76
+      ],
+      "original_points": 159917628
+    },
+    {
+      "name": "FLHF_G_199_200_classified",
+      "directory": "v25m/tile_02",
+      "points": 1178539,
+      "mins": [
+        702082.88,
+        3148592.19,
+        215.92000000000002
+      ],
+      "maxs": [
+        704838.83,
+        3151690.05,
+        340.34000000000003
+      ],
+      "original_points": 236244436
+    },
+    {
+      "name": "FLHG192,FLHG193,FLHH191,FLHH192,_classified",
+      "directory": "v25m/tile_03",
+      "points": 1626863,
+      "mins": [
+        691556.21,
+        3146919.24,
+        101.97000000000003
+      ],
+      "maxs": [
+        695582.88,
+        3150036.5,
+        309.76
+      ],
+      "original_points": 326113459
+    },
+    {
+      "name": "FLHG194,FLHG195,FLHH193,FLHH194,_classified",
+      "directory": "v25m/tile_14",
+      "points": 2015651,
+      "mins": [
+        694200.65,
+        3146962.58,
+        -467.15999999999997
+      ],
+      "maxs": [
+        698227.41,
+        3150080.74,
+        297.03999999999996
+      ],
+      "original_points": 404048004
+    },
+    {
+      "name": "FLHH203_205_FLHI203_204_FLHJ203_204_classified",
+      "directory": "v25m/tile_15",
+      "points": 2163192,
+      "mins": [
+        707423.5,
+        3144195.87,
+        -349.28999999999996
+      ],
+      "maxs": [
+        710940.51,
+        3148767.54,
+        424.30999999999995
+      ],
+      "original_points": 433623457
+    },
+    {
+      "name": "FLHJ_K_197_198_FLHL_198_classified",
+      "directory": "v25m/tile_04",
+      "points": 1222219,
+      "mins": [
+        699540.43,
+        3141089.18,
+        -209.88
+      ],
+      "maxs": [
+        702322.56,
+        3145659.97,
+        431.9200000000001
+      ],
+      "original_points": 245000424
+    },
+    {
+      "name": "FLHK_202_TO_205_FLHL_202_classified",
+      "directory": "v25m/tile_05",
+      "points": 954742,
+      "mins": [
+        706179.75,
+        3141180.43,
+        217.31
+      ],
+      "maxs": [
+        711557.82,
+        3144326.32,
+        326.76
+      ],
+      "original_points": 191383184
+    },
+    {
+      "name": "FLHL200_FLHL201_FLHM199FLHM200_classified",
+      "directory": "v25m/tile_06",
+      "points": 975464,
+      "mins": [
+        702262.6,
+        3139615.64,
+        -428.18999999999994
+      ],
+      "maxs": [
+        706291.95,
+        3142736.49,
+        298.27
+      ],
+      "original_points": 195537092
+    },
+    {
+      "name": "FLHL_M_193_To_195_FLHM_196_classified",
+      "directory": "v25m/tile_11",
+      "points": 2240210,
+      "mins": [
+        694323.93,
+        3139482.33,
+        -53.2
+      ],
+      "maxs": [
+        699701.63,
+        3142613.25,
+        340.69
+      ],
+      "original_points": 449062059
+    },
+    {
+      "name": "FLHL_M_N_203_To_206_FLHN_202_classified",
+      "directory": "v25m/city",
+      "points": 1566518,
+      "mins": [
+        706258.17,
+        3138188.21,
+        210.61
+      ],
+      "maxs": [
+        712368.2200000001,
+        3142882.84,
+        325.69
+      ],
+      "original_points": 314016956
+    },
+    {
+      "name": "FLHN_197_TO_199_FLHO_197_classified",
+      "directory": "v25m/tile_08",
+      "points": 1467801,
+      "mins": [
+        699641.7,
+        3136578.5,
+        204.63
+      ],
+      "maxs": [
+        703697.27,
+        3139698.13,
+        336.07
+      ],
+      "original_points": 294228545
+    },
+    {
+      "name": "FLHN_O_P_200_FLHO_201_classified",
+      "directory": "v25m/tile_12",
+      "points": 1847904,
+      "mins": [
+        703611.54,
+        3135150.13,
+        27.88
+      ],
+      "maxs": [
+        706370.32,
+        3139721.24,
+        257.2
+      ],
+      "original_points": 370422228
+    },
+    {
+      "name": "FLHO198_199_FLHP_197&198_199_classified",
+      "directory": "v25m/tile_09",
+      "points": 1275796,
+      "mins": [
+        700339.74,
+        3135127.46,
+        190.5
+      ],
+      "maxs": [
+        703748.8,
+        3138202.24,
+        322.71
+      ],
+      "original_points": 255740255
+    },
+    {
+      "name": "DENSE_CLOUD_GGM_FLHB191 TO 193 & FLHC192 TO 193 & FLHD192 TO 195_classified",
+      "mins": [
+        692576.86,
+        3152925.05,
+        -569.02
+      ],
+      "maxs": [
+        698151.74,
+        3156747.22,
+        322.5
+      ],
+      "directory": "incoming_20261015/tile_16",
+      "points": 2412291,
+      "original_points": 483556783
+    },
+    {
+      "name": "DENSE_CLOUD_GGM_FLHB196 TO 197 & FLHC194 TO 198_classified",
+      "mins": [
+        695398.53,
+        3154464.81,
+        50.950000000000045
+      ],
+      "maxs": [
+        702091.37,
+        3157606.04,
+        349.20000000000005
+      ],
+      "directory": "incoming_20261015/tile_17",
+      "points": 2153307,
+      "original_points": 431641990
+    },
+    {
+      "name": "FLHEF_189_EFG_190_191_classified",
+      "mins": [
+        688863.68,
+        3148393.85,
+        -259.44999999999993
+      ],
+      "maxs": [
+        692938.37,
+        3152984.99,
+        550.5799999999999
+      ],
+      "directory": "incoming_20261015/tile_18",
+      "points": 2458755,
+      "original_points": 492870645
+    },
+    {
+      "name": "FLHI205_206_FLHJ205_207_FLHK206_207_classified",
+      "mins": [
+        709940.13,
+        3142653.67,
+        228.67000000000002
+      ],
+      "maxs": [
+        713568.02,
+        3147501.07,
+        336.25
+      ],
+      "directory": "incoming_20261015/tile_19",
+      "points": 2237900,
+      "original_points": 448599078
+    }
+  ],
+  "points": 34262253,
+  "mins": [
+    688863.68,
+    3135127.46,
+    -569.02
+  ],
+  "maxs": [
+    713568.02,
+    3157606.04,
+    550.5799999999999
+  ],
+  "original_points": 6868052725,
+  "sampling": "Proportional per-cloud systematic sample; exact original XYZ/RGB/class preserved",
+  "site_limit_bytes": 1000000000,
+  "planned_cloud_count": 25,
+  "storage_policy": "Preserve current 25 million points across 16 clouds. Sample incoming clouds evenly within the remaining website storage budget for 25 files; total point count may grow."
+}

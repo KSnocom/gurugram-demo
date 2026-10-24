@@ -1,0 +1,22 @@
+{
+  "image": "survey-background.jpg",
+  "width": 2250,
+  "height": 2048,
+  "boundsUtm": [
+    688838.68,
+    3135102.46,
+    713593.02,
+    3157631.04
+  ],
+  "crs": "EPSG:32643",
+  "referenceElevationMeters": 90,
+  "marginMeters": 25,
+  "metersPerPixel": 11.001928888888875,
+  "bytes": 1911789,
+  "sources": [
+    "EOX Sentinel-2 cloudless 2024"
+  ],
+  "colourMatched": true,
+  "terrain": false,
+  "googleImagery": false
+}

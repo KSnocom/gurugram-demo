@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Hugging Face streaming test</title>
+<body style="font:18px system-ui;max-width:900px;margin:40px auto"><h1>Hugging Face browser streaming test</h1>
+<p>Read-only test of an existing public 2.37 GB FineWeb-Edu dataset file. No city data is uploaded.</p>
+<pre id="result">Testing two 1 KB ranges…</pre>
+<script>
+const url = 'https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/data/CC-MAIN-2013-20/train-00000-of-00014.parquet';
+(async () => {
+    const results = [];
+    for (const start of [0, 1024]) {
+        const response = await fetch(url, {headers: {Range: `bytes=${start}-${start+1023}`}});
+        if (response.status !== 206) { if (response.body) await response.body.cancel(); throw Error(`Expected partial response, got ${response.status}`); }
+        const buffer = await response.arrayBuffer();
+        const range = response.headers.get('Content-Range');
+        results.push({requested: `bytes=${start}-${start+1023}`, status: response.status, bytes: buffer.byteLength, contentRange: range});
+        if (buffer.byteLength !== 1024 || range !== `bytes ${start}-${start+1023}/2369456837`) throw Error('Range mismatch');
+    }
+    document.getElementById('result').textContent = 'PASS: both byte ranges work from a browser across origins.\n\n' + JSON.stringify(results, null, 2);
+})().catch(error => document.getElementById('result').textContent = 'FAIL: ' + error.message);
+</script></body></html>
+

@@ -1,0 +1,42 @@
+{
+  "image": "sentinel-2-2024.jpg",
+  "boundsWgs84": [
+    76.92,
+    28.29,
+    77.21,
+    28.55
+  ],
+  "surveyCrs": "EPSG:32643",
+  "referenceElevationMeters": 90,
+  "year": 2024,
+  "width": 2048,
+  "height": 2048,
+  "source": "https://tiles.maps.eox.at/map?service=WMS&version=1.1.1&request=GetMap&layers=s2cloudless-2024&styles=&srs=EPSG%3A4326&bbox=76.92,28.29,77.21,28.55&width=2048&height=2048&format=image%2Fjpeg",
+  "attribution": "Sentinel-2 cloudless - https://s2maps.eu by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://cloudless.eox.at/license-non-commercial",
+  "notes": "Flat reference plane for visual context, not a terrain model. Cloud XYZ remains unchanged. Mosaic dates differ from survey dates.",
+  "colourMatch": {
+    "gain": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "offset": [
+      0.13190192686070965,
+      0.13725490196078433,
+      0.13725490196078433
+    ],
+    "cells": 2552,
+    "beforeMeanAbsoluteRGBError": [
+      26.175084535317733,
+      30.603716872238206,
+      35.33226116897996
+    ],
+    "afterMeanAbsoluteRGBError": [
+      19.328144726396907,
+      19.29305081671811,
+      16.44274329950314
+    ]
+  }
+}
