@@ -319,9 +319,89 @@
       "directory": "incoming_20261015/tile_19",
       "points": 2237900,
       "original_points": 448599078
+    },
+    {
+      "name": "DENSE_CLOUD_GGM_FLHF196 TO 198 & FLHG196 TO 198_classified",
+      "mins": [
+        698117.1,
+        3148524.73,
+        111.79
+      ],
+      "maxs": [
+        702194.24,
+        3151644.32,
+        329.37
+      ],
+      "directory": "incoming_20261015/tile_20",
+      "points": 2582645,
+      "original_points": 589058937
+    },
+    {
+      "name": "i_J_191_192_K_192_classified",
+      "mins": [
+        691580.53,
+        3142452.71,
+        -163.55999999999995
+      ],
+      "maxs": [
+        694359.25,
+        3147022.52,
+        344.5899999999999
+      ],
+      "directory": "incoming_20261015/tile_21",
+      "points": 1432304,
+      "original_points": 287113016
+    },
+    {
+      "name": "i_j_193_194_k193_classified",
+      "mins": [
+        694225.34,
+        3142474.42,
+        -308.71000000000004
+      ],
+      "maxs": [
+        696980.15,
+        3147066.45,
+        317.3299999999999
+      ],
+      "directory": "incoming_20261015/tile_22",
+      "points": 2517305,
+      "original_points": 504607213
+    },
+    {
+      "name": "k_194_j_k_195_196_classified",
+      "mins": [
+        695597.41,
+        3142496.29,
+        -287.55999999999995
+      ],
+      "maxs": [
+        699651.01,
+        3145614.84,
+        358.8800000000001
+      ],
+      "directory": "incoming_20261015/tile_23",
+      "points": 1483815,
+      "original_points": 297438740
+    },
+    {
+      "name": "Point_Cloud_FLHK199-201-FLHL199_classified",
+      "mins": [
+        702211.35,
+        3141111.74,
+        -55.75999999999999
+      ],
+      "maxs": [
+        706265.8,
+        3144232.57,
+        431.0
+      ],
+      "directory": "incoming_20261015/tile_24",
+      "points": 816220,
+      "original_points": 163615602
     }
   ],
-  "points": 34262253,
+  "points": 43094542,
   "mins": [
     688863.68,
     3135127.46,
@@ -332,7 +412,7 @@
     3157606.04,
     550.5799999999999
   ],
-  "original_points": 6868052725,
+  "original_points": 8709886233,
   "sampling": "Proportional per-cloud systematic sample; exact original XYZ/RGB/class preserved",
   "site_limit_bytes": 1000000000,
   "planned_cloud_count": 25,
